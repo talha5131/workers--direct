@@ -1,9 +1,12 @@
 <!-- Top Scroll End -->
 <?php
-$curPageName = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
-if ( $curPageName == 'index.php' )
-{include('header-t.php');}
-else{include('header.php');}?>
+$curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
+if ($curPageName == 'index.php') {
+    include('header-t.php');
+} else {
+    // include('header.php');
+}
+?>
 <div class="jp_banner_heading_cont_wrapper">
     <div class="container">
         <div class="row">
